@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #2d0af2;
+}
+
+table {
+    width: 70%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: #0af2c0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #33;
+    color: red;
+    cursor: pointer;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Top movies</h1>
+<input type="text" id="search" placeholder="search by name" onkeyup="filterMovies()">
+
+<table>
+    <thead>
+    <tr>
+        <th onclick="sortMovies('rank')">Rating</th>
+        <th onclick="sortMovies('year')">year</th>
+        <th onclick="sortMovies('title')">name</th>
+        <th onclick="sortMovies('director')">Director</th>
+        <th onclick="sortMovies('gross')">gross</th>
+    </tr>
+    </thead>
+    <tbody id="movies-table">
+    <!-- Данные загрузятся сюда -->
+    </tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
