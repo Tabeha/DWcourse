@@ -38,7 +38,7 @@ async function initDB() {
 */
 
 // Path to the JSON file containing movie data
-const jsonFilePath = '/home/makar/IdeaProjects/untitled1/films.json';
+const jsonFilePath = 'films.json';
 
 // Define an API route to return movie data from the JSON file
 app.get('/movies', async (req, res) => {
