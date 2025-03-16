@@ -1,7 +1,7 @@
 let movies = [];
 
 async function loadMovies() {
-    const response = await fetch('http://localhost:3000/movies');
+    const response = await fetch('films.json');
     movies = await response.json();
     displayMovies(movies);
 }
